@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="269f63e9-55b9-48dc-8def-4ea5eb93f88b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../dogalavm/app/design/frontend/base/default/template/customer/form/login.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="103" column="169" lean-forward="false" selection-start-line="103" selection-start-column="169" selection-end-line="103" selection-end-column="169" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Webkulextra.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/Helper/Webkulextra.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>helper</find>
+      <find>stnc_notification</find>
+      <find>SaticiAdiNedir</find>
+      <find>stnc</find>
+      <find>shipping info</find>
+      <find>Items Ordered</find>
+      <find>price-incl-tax</find>
+      <find>colspan</find>
+      <find>shipping</find>
+      <find>$collection</find>
+      <find>$helper</find>
+      <find>my-orders-table</find>
+      <find>order_id</find>
+      <find>getParam</find>
+      <find>tfoot</find>
+      <find>selman</find>
+      <find>product-name</find>
+      <find>marketplace/order</find>
+      <find>product</find>
+      <find>stnc_MarketGroup</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>stnc_webkulimplant</replace>
+      <replace>stnc_webkulAlan1</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/code/local/Stnc/Notification/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Stnc_Notification.xml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp25265/home/dogaldev/web/dev5.dogalavm.com/public_html/var/log/system.log" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp59053/home/dogaldev/web/dev5.dogalavm.com/public_html/var/log/mageticaret_notification.log" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp26195/home/dogaldev/web/dev5.dogalavm.com/public_html/var/log/logfile.log" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/v2/app/code/local/Webkul/Marketplace/Helper/Extrastnc.php" />
+        <option value="$PROJECT_DIR$/v2/app/code/local/Webkul/Marketplace/etc/config.xml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp21958/home/dogaldev/web/dev5.dogalavm.com/public_html/index.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/Helper/Data.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp00186/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Webkul/Marketplace/controllers/OrderController.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp33981/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/manageorder.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp33960/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/template/sales/order/totals.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp35259/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/layout/sales.xml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp26390/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/template/sales/order/items.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp58960/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/manageorder.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp42789/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/checkout/cart/item/default.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp39480/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/template/checkout/cart/item/default.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp59452/home/dogaldev/web/dev5.dogalavm.com/public_html/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp24024/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/sales/order/items/renderer/default.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp08842/home/dogaldev/web/dev5.dogalavm.com/public_html/index.php" />
+        <option value="$PROJECT_DIR$/../stnc-base/app/code/local/Stnc/Base/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/../stnc-base/app/code/local/Stnc/Base/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/../webkul-sms-webpush/app/code/local/Stnc/Notification/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/../webkul-sms-webpush/app/code/local/Stnc/Notification/etc/system.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/etc/system.xml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp19312/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/profile.phtml" />
+        <option value="$PROJECT_DIR$/../webkul-sms-webpush/app/design/frontend/base/default/template/stnc/notify.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp59022/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/customer/form/login.phtml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp10879/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default_green/layout/page.xml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp10419/home/dogaldev/web/dev5.dogalavm.com/public_html/skin/frontend/base/default/mageticaret/override.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp24598/home/dogal/web/dogalavm.com/public_html/skin/frontend/base/default/mageticaret/override.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp26269/home/dogal/web/dogalavm.com/public_html/app/design/frontend/sm_market/default_green/layout/page.xml" />
+        <option value="$PROJECT_DIR$/../../dogalavm/app/design/frontend/base/default/template/customer/form/login.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/Helper/Webkulextra.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-458" />
+    <option name="y" value="214" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Stnc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Stnc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Webkulimplant" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Stnc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Webkulimplant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Stnc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Webkulimplant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Helper" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webkul-implant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webkul-implant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\mageticaret\mageticaret_moduller\webkul-implant\app\code\local\Stnc\Webkulimplant\etc" />
+      <recent name="D:\xampp\htdocs\mageticaret\mageticaret_moduller\webkul-implant\v2\app\code\local\Webkul\Marketplace\Helper" />
+      <recent name="D:\xampp\htdocs\mageticaret\mageticaret_moduller\webkul-implant\app\code\local\Stnc\Webkulimplant\Helper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="269f63e9-55b9-48dc-8def-4ea5eb93f88b" name="Default" comment="" />
+      <created>1519649546271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519649546271</updated>
+      <workItem from="1519649547825" duration="2997000" />
+      <workItem from="1519658587257" duration="8162000" />
+      <workItem from="1519723357668" duration="9198000" />
+      <workItem from="1521541652247" duration="581000" />
+      <workItem from="1521553922748" duration="1678000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26574000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1314181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/v2/app/code/local/Webkul/Marketplace/Helper/Data.php" />
+    <entry file="file://$PROJECT_DIR$/v2/app/code/local/Webkul/Marketplace/Helper/Extrastnc.php" />
+    <entry file="file://$PROJECT_DIR$/v2/app/code/local/Webkul/Marketplace/etc/adminhtml.xml" />
+    <entry file="file://$PROJECT_DIR$/v2/app/code/local/Webkul/Marketplace/etc/system.xml" />
+    <entry file="file://$PROJECT_DIR$/v2/app/code/local/Webkul/Marketplace/etc/config--.xml" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp21958/home/dogaldev/web/dev5.dogalavm.com/public_html/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00186/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Webkul/Marketplace/controllers/OrderController.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp33327/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/manageorder.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp30695/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/shipments.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp33981/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/manageorder.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp35259/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/layout/sales.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp33960/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/template/sales/order/totals.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp02825/home/dogaldev/web/dev5.dogalavm.com/public_html/app/etc/local.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp05113/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Webkul/Marketplace/Model/Order.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp58960/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/manageorder.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp39480/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/template/checkout/cart/item/default.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp38762/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/template/checkout/cart.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp42789/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/checkout/cart/item/default.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp15206/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Webkul/Marketplace/controllers/OrderController.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26308/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/template/sales/order/view.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp24024/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/sales/order/items/renderer/default.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26390/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default/template/sales/order/items.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp59452/home/dogaldev/web/dev5.dogalavm.com/public_html/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp44229/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/community/Grinet/Ipara/etc/system.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp46138/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Amasty/Flags/etc/adminhtml.xml" />
+    <entry file="file://$PROJECT_DIR$/../webkul-sms-webpush/app/code/local/Stnc/Notification/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp45666/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Amasty/Banners/etc/system.xml" />
+    <entry file="file://$PROJECT_DIR$/../stnc-base/app/code/local/Stnc/Base/Helper/Data.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp51267/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Amasty/Base/etc/system.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp18268/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Amasty/Base/etc/config.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp07264/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Amasty/Base/etc/adminhtml.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp47076/home/dogaldev/web/dev5.dogalavm.com/public_html/app/code/local/Amasty/Label/etc/system.xml" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/etc/adminhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stnc-base/app/code/local/Stnc/Base/etc/adminhtml.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp08842/home/dogaldev/web/dev5.dogalavm.com/public_html/index.php" />
+    <entry file="file://$PROJECT_DIR$/../webkul-sms-webpush/app/code/local/Stnc/Notification/etc/adminhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/etc/system.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp19312/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/marketplace/profile.phtml" />
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../webkul-sms-webpush/app/code/local/Stnc/Notification/etc/system.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../webkul-sms-webpush/app/design/frontend/base/default/template/stnc/notify.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp03097/home/dogal/web/dogalavm.com/public_html/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp10879/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/sm_market/default_green/layout/page.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp10419/home/dogaldev/web/dev5.dogalavm.com/public_html/skin/frontend/base/default/mageticaret/override.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp24598/home/dogal/web/dogalavm.com/public_html/skin/frontend/base/default/mageticaret/override.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp59022/home/dogaldev/web/dev5.dogalavm.com/public_html/app/design/frontend/base/default/template/customer/form/login.phtml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26269/home/dogal/web/dogalavm.com/public_html/app/design/frontend/sm_market/default_green/layout/page.xml" />
+    <entry file="file://$PROJECT_DIR$/../../dogalavm/app/design/frontend/base/default/template/customer/form/login.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="103" column="169" lean-forward="false" selection-start-line="103" selection-start-column="169" selection-end-line="103" selection-end-column="169" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Stnc/Webkulimplant/Helper/Webkulextra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

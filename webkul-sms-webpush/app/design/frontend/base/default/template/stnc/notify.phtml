@@ -1,0 +1,106 @@
+<?php  $control = Mage::getStoreConfig('stnc_notification/stnc_MarketGroup2/stnc_NotifyAktif', Mage::app()->getStore());
+$AppID =Mage::getStoreConfig('stnc_notification/stnc_MarketGroup2/stnc_NotifyAppID', Mage::app()->getStore());
+$bildirim_mesajı_text =Mage::getStoreConfig('stnc_notification/stnc_MarketGroup2/stnc_NotifySubscribeText', Mage::app()->getStore());
+if (Mage::getSingleton('customer/session')->isLoggedIn()) {
+    $customer = Mage::getSingleton('customer/session')->getCustomer();
+    $isPartner = Mage::getModel('marketplace/userprofile')->isPartner();
+    if ($control && $isPartner) {
+        ?>
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+        <script>
+            window.OneSignal = window.OneSignal || [];
+            // Do NOT call init() twice
+            //	  OneSignal.setDefaultTitle("My Title");
+            OneSignal.push(["init", {
+                autoRegister: false,
+                persistNotification:true,
+                /* Your other init options here */
+                appId: "<?php echo $AppID?>",
+                welcomeNotification: {
+                    /* These prompt options values configure both the HTTP prompt and the HTTP popup. */
+                    /* actionMessage limited to 90 characters */
+                    title: "Doğal AVM satış bilgilendirme",
+                    /* acceptButtonText limited to 15 characters */
+                    message: "Satış bilgilerinizden her yerde anında haberiniz olacaktır.",
+                    url:"",
+                    /* cancelButtonText limited to 15 characters */
+
+                },
+                promptOptions: {
+                    /* These prompt options values configure both the HTTP prompt and the HTTP popup. */
+                    /* actionMessage limited to 90 characters */
+                    actionMessage: "<?php echo $bildirim_mesajı_text?>",
+                    /* acceptButtonText limited to 15 characters */
+                    acceptButtonText: "İstiyorum",
+                    /* cancelButtonText limited to 15 characters */
+                    cancelButtonText: "Hayır"
+                },
+                notifyButton: {
+                    enable: true, /* Required to use the notify button */
+                    size: 'small', /* One of 'small', 'medium', or 'large' */
+                    theme: 'default', /* One of 'default' (red-white) or 'inverse" (white-red) */
+                    position: 'bottom-left', /* Either 'bottom-left' or 'bottom-right' */
+                    offset: {
+                        bottom: '0px',
+                        left: '0px', /* Only applied if bottom-left */
+                        right: '0px' /* Only applied if bottom-right */
+                    },
+                    prenotify: true, /* Show an icon with 1 unread message for first-time site visitors */
+                    showCredit: true, /* Hide the OneSignal logo */
+                    text: {
+                        'tip.state.unsubscribed': 'Satış bilgilerimden haberim olsun istemiyorum.',
+                        'tip.state.subscribed': "Satış bilgilerimden  anında haberim olsun istiyorum.",
+                        'tip.state.blocked': "Bilgilendirilmeyi engellemişsiniz.",
+                        'message.prenotify': 'Satış bilgilerinizi almak için tıklayın.',
+                        'message.action.subscribed': "Takip ettiğiniz için teşekkür ederiz.",
+                        'message.action.resubscribed': "Satış bildirimlerine abone oldunuz.",
+                        'message.action.unsubscribed': "Tekrar satış bildirimi almayacaksınız.",
+                        'dialog.main.title': 'Satış Bildirimlerini Yönet',
+                        'dialog.main.button.subscribe': 'Satış bilgilerine abone ol',
+                        'dialog.main.button.unsubscribe': 'Satış bilgileri aboneliğinden çık',
+                        'dialog.blocked.title': 'Satış Bildirimlerini Engellemeyi Kaldır',
+                        'dialog.blocked.message': "Satış Bildirimine izin vermek için şu talimatları uygulayın:"
+                    }
+                }
+            }]);
+        </script>
+
+        <script>
+            function subscribe() {
+                // OneSignal.push(["registerForPushNotifications"]);
+                OneSignal.push(["registerForPushNotifications"]);
+                event.preventDefault();
+            }
+            function unsubscribe() {
+                OneSignal.setSubscription(true);
+            }
+            var OneSignal = OneSignal || [];
+            OneSignal.push(function () {
+                OneSignal.on('subscriptionChange', function (isSubscribed) {
+                    console.log("The user's subscription state is now:", isSubscribed);
+                    OneSignal.sendTag("WEbKUL_user_id",<?php echo   $customer->getId();?>, function(tagsSent)
+                        {
+                            console.log("Tags have finished sending!");
+                        }
+                    );
+                });
+                var isPushSupported = OneSignal.isPushNotificationsSupported();
+                if (isPushSupported) {
+                    // Push notifications are supported
+                    OneSignal.isPushNotificationsEnabled().then(function (isEnabled) {
+                        if (isEnabled) {
+                            console.log("Push notifications are enabled!");
+                        } else {
+                            OneSignal.showHttpPrompt();
+                            console.log("Push notifications are not enabled yet.");
+                        }
+                    });
+
+                } else {
+                    console.log("Push notifications are not supported.");
+                }
+            })
+            ;
+        </script>
+    <?php }
+}

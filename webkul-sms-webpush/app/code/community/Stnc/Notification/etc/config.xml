@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <stnc_notification>
+            <version>1.0</version>
+        </stnc_notification>
+    </modules>
+    <global>
+        <helpers>
+            <stnc_notification>
+                <class>Stnc_Notification_Helper</class>
+            </stnc_notification>
+        </helpers>
+        <blocks>
+            <stnc_notification>
+                <class>Stnc_Notification_Block</class>
+            </stnc_notification>
+        </blocks>
+        <models>
+            <stnc_notification>
+                <class>Stnc_Notification_Model</class>
+            </stnc_notification>
+        </models>
+
+
+
+        <events>
+
+
+            <checkout_onepage_controller_success_action>
+                <observers>
+                    <sales_order_place_after>
+                        <type>singleton</type>
+                        <class>Stnc_Notification_Model_Observer</class>
+                        <method>send_data</method>
+                    </sales_order_place_after>
+                </observers>
+            </checkout_onepage_controller_success_action>
+
+
+        </events>
+    </global>
+    <frontend>
+    <!-- controller kısmı devre dışı bırakıldı
+        <routers>
+            <stnc_notification>
+                <use>standard</use>
+                <args>
+                    <module>Stnc_notification</module>
+                    <frontName>mageticaret</frontName>
+                </args>
+            </stnc_notification>
+        </routers>
+
+            <checkout_onepage_controller_success_action>
+                <observers>
+                    <sales_order_place_before>
+                        <type>singleton</type>
+                        <class>Stnc_notification_Model_Observer</class>
+                        <method>send_email</method>
+                    </sales_order_place_before>
+                </observers>
+            </checkout_onepage_controller_success_action>
+
+
+          <sales_order_place_after>
+                <observers>
+                    <order_notification>
+                        <class>Stnc_notification_Model_Observer</class>
+                        <method>send_email</method>
+                    </order_notification>
+                </observers>
+            </sales_order_place_after>
+    -->
+
+
+
+        <layout>
+            <updates>
+                <stnc_notification>
+                    <file>stnc_notification.xml</file>
+                </stnc_notification>
+            </updates>
+        </layout>
+
+    </frontend>
+
+    <modules>
+        <translations>
+            <version>1.3.0</version>
+        </translations>
+    </modules>
+
+    <frontend>
+        <translate>
+            <modules>
+                <translations>
+                    <files>
+                        <default>Stnc_notification.csv</default>
+                    </files>
+                </translations>
+            </modules>
+        </translate>
+    </frontend>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <translations>
+                    <files>
+                        <default>Stnc_notification.csv</default>
+                    </files>
+                </translations>
+            </modules>
+        </translate>
+    </adminhtml>
+
+</config>

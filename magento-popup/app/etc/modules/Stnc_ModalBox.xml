@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Stnc_ModalBox>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Stnc_ModalBox>
+    </modules>
+</config>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <stnc translate="label" module="stnc_modalbox">
+            <label>MagetIcaret ExtensIons</label>
+            <sort_order>100</sort_order>
+        </stnc>
+    </tabs>
+    <sections>
+        <stnc translate="label" module="stnc_modalbox">
+            <label>ModalBox Popup</label>
+            <tab>stnc</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <stnc_modalboxAdmin translate="label" module="stnc_modalbox">
+                    <label>ModalBox Popup Ayarları</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+
+
+                        <stnc_ModalBoxShow translate="label">
+                            <label>ModalBox Aktif olsun mu?</label>
+                            <comment>Yes/No values</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </stnc_ModalBoxShow>
+
+
+                        <stnc_BlockName translate="label">
+                            <label>Block ID</label>
+                            <comment>Block id</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_BlockName>
+
+                    </fields>
+                </stnc_modalboxAdmin>
+            </groups>
+        </stnc>
+    </sections>
+
+
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Stnc_Webkulimplant>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Stnc_Webkulimplant>
+    </modules>
+</config>
+

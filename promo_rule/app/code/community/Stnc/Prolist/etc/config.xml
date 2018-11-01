@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Stnc_Prolist>
+      <version>1.0</version>
+    </Stnc_Prolist>
+  </modules>
+  <global>
+    <blocks>
+      <mageticaretprolist>
+        <class>Stnc_Prolist_Block</class>
+      </mageticaretprolist>
+    </blocks>
+    <models>
+      <stncprolist>
+        <class>Stnc_Prolist_Model</class>
+      </stncprolist>
+    </models>
+  </global>
+  <frontend>
+
+    <routers>
+      <mageticaret>
+        <use>standard</use>
+        <args>
+          <module>Stnc_Prolist</module>
+          <frontName>mageticaret</frontName>
+        </args>
+      </mageticaret>
+    </routers>
+
+  </frontend>
+</config>
+

@@ -1,0 +1,16 @@
+<?php
+/**
+ * Mage SMS - SMS notification & SMS marketing
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the BSD 3-Clause License
+ * It is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/BSD-3-Clause
+ *
+ * @category    TOPefekt
+ * @package     TOPefekt_Magesms
+ * @copyright   Copyright (c) 2012-2017 TOPefekt s.r.o. (http://www.mage-sms.com)
+ * @license     http://opensource.org/licenses/BSD-3-Clause
+ */
+?><div style="margin:15px; text-align:center"><?php if ($this->getNext()): ?><div class="field-row"><div class="input-box"><?php echo $this->__('SMS code was sent to'); ?> <strong><?php echo $this->getSmsmobile(); ?></strong></div></div><div class="field-row"><div class="input-box"><input type="text" name="code" value="" id="code" placeholder="<?php echo $this->__('Fill your SMS code') ?>" class="input-text required-entry" title="<?php echo $this->__('Code') ?>" autocomplete="off" autofocus /></div></div><?php else: ?><div class="field-row"><input id="smsnumber" name="smsnumber" value="<?php echo $this->getSmsnumber(); ?>" placeholder="<?php echo $this->__('Fill your Mobile number') ?>" class="required-entry input-text required-entry" type="text" autofocus /></div><?php endif;?><div class="field-row" style="padding-top:10px"><button type="submit" id="submit" title="Odeslat" class="button validation-passed" onclick="magesmsValidateNumber(<?php echo $this->getNext();?>)"><span><span><?php echo Mage::helper('magesms')->__('OK'); ?></span></span></button></div><?php if ($this->getNext()): ?><div class="field-row" style="padding-top:15px"><?php echo $this->__("If you didn't receive your SMS Code, please check your Mobile number."); ?></div><?php endif; ?></div>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * ConversionBug
+ * @category    SMS
+ * @package     Conversionbug_SMS
+ * @copyright   Copyright (c) 2017 Conversionbug (http://www.conversionbug.com/)
+ * @author      shivam
+ * @email       shivam.kumar@conversionbug.com
+ * @version     Release: 1.0.0.0
+ */
+--> 
+
+<config>
+    <modules>
+        <ConversionBug_Sms>
+            <version>1.0.0</version>
+        </ConversionBug_Sms>
+    </modules>
+    <global>
+        <models>
+            <conversionbug>
+                <class>ConversionBug_Sms_Model</class>
+            </conversionbug>
+        </models>
+        <blocks>
+            <conversionbug>
+                <class>ConversionBug_Sms_Block</class>
+            </conversionbug>
+        </blocks>
+        <helpers>
+            <conversionbug>
+                <class>ConversionBug_Sms_Helper</class>
+            </conversionbug>
+        </helpers>
+    </global>
+    <frontend>
+        <events>
+            <sales_order_place_after>
+                <observers>
+                    <conversionbug_sms_send>
+                        <class>conversionbug/observer</class>
+                        <method>orderSuccess</method>
+                    </conversionbug_sms_send>
+                </observers>
+            </sales_order_place_after>
+        </events>
+    </frontend>
+    <adminhtml>
+        <events>
+            <controller_action_postdispatch>
+                <observers>
+                    <controller_action_before>
+                        <class>conversionbug/observer</class>
+                        <method>shippedSuccess</method>
+                    </controller_action_before>
+                </observers>
+            </controller_action_postdispatch>
+        </events>
+    </adminhtml>
+</config>

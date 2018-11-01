@@ -1,0 +1,18 @@
+<?php
+/**
+ * Mage SMS - SMS notification & SMS marketing
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the BSD 3-Clause License
+ * It is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/BSD-3-Clause
+ *
+ * @category    TOPefekt
+ * @package     TOPefekt_Magesms
+ * @copyright   Copyright (c) 2012-2017 TOPefekt s.r.o. (http://www.mage-sms.com)
+ * @license     http://opensource.org/licenses/BSD-3-Clause
+ */
+?><div class="account-login"><div class="page-title"><h1><?php echo $this->__('Login or Create an Account') ?></h1></div><?php echo $this->getMessagesBlock()->getGroupedHtml() ?><form action="<?php echo $this->getPostActionUrl() ?>" method="post" id="login-form"><div class="col1-set"><div class="col-1 registered-users"><div class="content"><h2><?php echo $this->__('SMS OTP') ?></h2><p><?php echo $this->__('Fill mobile number') ?></p><ul class="form-list"><li><label for="mobile" class="required"><em>*</em><?php echo $this->__('Mobile number') ?></label><div class="input-box"><input type="text" name="mobile" value="<?php echo $this->htmlEscape($this->getMobile()) ?>" id="mobile" class="input-text required-entry" <?php if ($this->getNext()): ?>readonly<?php endif;?> title="<?php echo $this->__('Mobile number') ?>" /></div></li><?php if ($this->getNext()): ?><li><label for="code" class="required"><em>*</em><?php echo $this->__('Code') ?></label><div class="input-box"><input type="text" name="code" value="" id="code" class="input-text required-entry" title="<?php echo $this->__('Code') ?>" autocomplete="off" /></div></li><?php endif;?><li><div class="input-box"><button type="submit" class="button" title="<?php echo $this->__('Next') ?>" name="send" id="send2"><span><span><?php echo $this->__('Next') ?></span></span></button></div></li></ul></div></div></div><!--<div class="col1-set"><div class="col-1 registered-users"><div class="buttons-set"><button type="submit" class="button" title="" name="send" id="send2"><span><span></span></span></button></div></div></div>--></form><script type="text/javascript">//<![CDATA[
+var dataForm = new VarienForm('login-form', true);
+//]]></script></div>

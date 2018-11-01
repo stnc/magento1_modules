@@ -1,0 +1,8 @@
+﻿<?php
+$control= Mage::getStoreConfig('stnc/stnc_group/stnc_select',Mage::app()->getStore());
+if ($control){
+?>
+<div class="beden-tab-container clearer">
+    <a href="#BedenTablosuModal" role="button" class="size_guide-link" data-toggle="modal"><?php echo $this->__('Size Guide') ?></a>
+</div>
+<?php }  ?>

@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <stnc translate="label" module="stnc_notification">
+            <label>MageTicaret</label>
+            <sort_order>100</sort_order>
+        </stnc>
+    </tabs>
+    <sections>
+        <stnc_notification translate="label" module="stnc_notification">
+            <label>Marketing Bilgilendirme Sistemi</label>
+            <tab>stnc</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <stnc_MarketGroup translate="label" module="stnc_notification">
+                    <label>Sms Sistemi Ayarları</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <stnc_SmsAktif translate="label">
+                            <label>Aktif </label>
+                            <comment>Sms Modulü çalışma durumu</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </stnc_SmsAktif>
+
+                        <stnc_AtakSmsUser translate="label">
+                            <label>AtakSMS Kullanıcı adı</label>
+                            <comment>AtakSMS Kullanıcı Adı</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_AtakSmsUser>
+
+                        <stnc_AtakSmsPass translate="label">
+                            <label>AtakSMS şifre</label>
+                            <comment>AtakSMS şifresi</comment>
+                            <frontend_type>password</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_AtakSmsPass>
+
+                        <stnc_AtakSmsMsg translate="label">
+                            <label>Mesaj</label>
+                            <comment>Sms Mesajınız</comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_AtakSmsMsg>
+
+
+                    </fields>
+                </stnc_MarketGroup>
+
+                <stnc_MarketGroup2 translate="label" module="stnc_notification">
+                    <label>Uyarı Sistemi Ayarları</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <stnc_NotifyAktif translate="label">
+                            <label>Aktif  </label>
+                            <comment>Notification Modulü çalışma durumu</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </stnc_NotifyAktif>
+
+                        <stnc_NotifyAppID translate="label">
+                            <label>Onesignal.com APP ID</label>
+                            <comment> ONESIGNAL uygulama adı</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_NotifyAppID>
+
+                        <stnc_NotifyRESTAPIKEY translate="label">
+                            <label>Onesignal.com REST API KEY</label>
+                            <comment> REST API KEY</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_NotifyRESTAPIKEY>
+
+                        <stnc_NotifyMsg translate="label">
+                            <label>Mesaj</label>
+                            <comment>Notification Mesajınız</comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_NotifyMsg>
+
+                        <stnc_NotifySubscribeText translate="label">
+                            <label>Notification abonelik yazısı</label>
+                            <comment>Notification bildiriminde olmasını istediğiniz abonelik yazısı</comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_NotifySubscribeText>
+
+                    </fields>
+                </stnc_MarketGroup2>
+
+            </groups>
+        </stnc_notification>
+
+
+    </sections>
+
+
+</config>

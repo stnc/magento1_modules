@@ -1,0 +1,776 @@
+server {
+    listen      136.243.56.4:80;
+    server_name demo2.mageticaret.com www.demo2.mageticaret.com;
+    root        /home/demo/web/demo2.mageticaret.com/public_html;
+    index       index.php index.html index.htm;
+    access_log  /var/log/nginx/domains/demo2.mageticaret.com.log combined;
+    access_log  /var/log/nginx/domains/demo2.mageticaret.com.bytes bytes;
+    error_log   /var/log/nginx/domains/demo2.mageticaret.com.error.log error;
+
+#   ssl         on;
+#   ssl_certificate      /home/demo/conf/web/ssl.demo2.mageticaret.com.pem;
+#   ssl_certificate_key  /home/demo/conf/web/ssl.demo2.mageticaret.com.key;
+
+    rewrite ^/(.*\.php)(/)(.*)$ /$1?file=/$3 last;
+
+    location = /favicon.ico {
+        log_not_found off;
+        access_log off;
+    }
+
+    location = /robots.txt {
+        allow all;
+        log_not_found off;
+        access_log off;
+    }
+
+    # Very rarely should these ever be accessed outside of your lan
+    location ~* \.(txt|log)$ {
+        allow 192.168.0.0/16;
+        deny all;
+    }
+
+    location /downloader {
+		if ($request_uri = '') {
+			return http://www.urbandictionary.com/define.php?term=smartass;
+		}
+    }
+
+	location ~ \..*/.*\.php$ {
+		return 403;
+	}
+
+	client_max_body_size 500M;
+
+    if ($http_user_agent ~* (netcrawl|npbot|malicious|apache-httpclient|JoeDog|Siege|foo|bar|apache)) {
+        return 403;
+    }
+
+    ##
+    # Rewrite for versioned CSS+JS via filemtime
+    ##
+    location ~* ^.+\.(css|js)$ {
+        rewrite ^(.+)\.(\d+)\.(css|js)$ $1.$3 last;
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+    }
+    ##
+    # Aggressive caching for static files
+    # If you alter static files often, please use 
+    # add_header Cache-Control "max-age=31536000, public, must-revalidate, proxy-revalidate";
+    ##
+    location ~* \.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|odb|odc|odf|odg|odp|ods|odt|ogg|ogv|otf|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|t?gz|tif|tiff|ttf|wav|webm|wma|woff|wri|xla|xls|xlsx|xlt|xlw|zip)$ {
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+    }
+  
+    ## These locations would be hidden by .htaccess normally
+    location ^~ /app/                { deny all; }
+    location ^~ /includes/           { deny all; }
+    location ^~ /lib/                { deny all; }
+    location ^~ /media/downloadable/ { deny all; }
+    location ^~ /pkginfo/            { deny all; }
+    location ^~ /report/config.xml   { deny all; }
+    location ^~ /var/                { deny all; }
+  
+    location /var/export/ { ## Allow admins only to view export folder
+        auth_basic           "Restricted"; ## Message shown in login window
+        auth_basic_user_file htpasswd; ## See /etc/nginx/htpassword
+        autoindex            on;
+    }
+  
+    # Block access to "hidden" files and directories whose names begin with a
+    # period. This includes directories used by version control systems such
+    # as Subversion or Git to store control files.
+    location ~ (^|/)\. {
+        return 403;
+    }
+
+	location ~ .php/ { ## Forward paths like /js/index.php/x.js to relevant handler
+        rewrite ^(.*.php)/ $1 last;
+    }
+	
+	location @handler { ## Magento uses a common front handler
+		rewrite / /index.php;
+	}
+
+    location / {
+        try_files /maintenance.html $uri $uri/ @handler; ## If missing pass the URI to Magento's front handler
+        expires 30d; ## Assume all files are cachable
+
+		location ~* ^.+\.(jpeg|jpg|png|gif|bmp|ico|svg|css|js)$ {
+            expires     max;
+        }
+
+        location ~ [^/]\.php(/|$) {
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            if (!-f $document_root$fastcgi_script_name) {
+                return  404;
+            }
+
+            fastcgi_pass    127.0.0.1:9009;
+            fastcgi_index   index.php;
+            fastcgi_param SCRIPT_FILENAME $request_filename;
+            fastcgi_intercept_errors on;
+            include         /etc/nginx/fastcgi_params;
+        }
+    }
+
+    error_page  403 /error/404.html;
+    error_page  404 /error/404.html;
+    error_page  500 502 503 504 /error/50x.html;
+
+    location /error/ {
+        alias   /home/demo/web/demo2.mageticaret.com/document_errors/;
+    }
+
+    location ~* "/\.(htaccess|htpasswd)$" {
+        deny    all;
+        return  404;
+    }
+
+    location /vstats/ {
+        alias   /home/demo/web/demo2.mageticaret.com/stats/;
+        include /home/demo/web/demo2.mageticaret.com/stats/auth.conf*;
+    }
+
+    include     /etc/nginx/conf.d/phpmyadmin.inc*;
+    include     /etc/nginx/conf.d/phppgadmin.inc*;
+    include     /etc/nginx/conf.d/webmail.inc*;
+
+    include     /home/demo/conf/web/nginx.demo2.mageticaret.com.conf*;
+}
+server {
+    listen      136.243.56.4:80;
+    server_name demo3.mageticaret.com www.demo3.mageticaret.com;
+    root        /home/demo/web/demo3.mageticaret.com/public_html;
+    index       index.php index.html index.htm;
+    access_log  /var/log/nginx/domains/demo3.mageticaret.com.log combined;
+    access_log  /var/log/nginx/domains/demo3.mageticaret.com.bytes bytes;
+    error_log   /var/log/nginx/domains/demo3.mageticaret.com.error.log error;
+
+#   ssl         on;
+#   ssl_certificate      /home/demo/conf/web/ssl.demo3.mageticaret.com.pem;
+#   ssl_certificate_key  /home/demo/conf/web/ssl.demo3.mageticaret.com.key;
+
+    rewrite ^/(.*\.php)(/)(.*)$ /$1?file=/$3 last;
+
+    location = /favicon.ico {
+        log_not_found off;
+        access_log off;
+    }
+
+    location = /robots.txt {
+        allow all;
+        log_not_found off;
+        access_log off;
+    }
+
+    # Very rarely should these ever be accessed outside of your lan
+    location ~* \.(txt|log)$ {
+        allow 192.168.0.0/16;
+        deny all;
+    }
+
+    location /downloader {
+		if ($request_uri = '') {
+			return http://www.urbandictionary.com/define.php?term=smartass;
+		}
+    }
+
+	location ~ \..*/.*\.php$ {
+		return 403;
+	}
+
+	client_max_body_size 500M;
+
+    if ($http_user_agent ~* (netcrawl|npbot|malicious|apache-httpclient|JoeDog|Siege|foo|bar|apache)) {
+        return 403;
+    }
+
+    ##
+    # Rewrite for versioned CSS+JS via filemtime
+    ##
+    location ~* ^.+\.(css|js)$ {
+        rewrite ^(.+)\.(\d+)\.(css|js)$ $1.$3 last;
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+    }
+    ##
+    # Aggressive caching for static files
+    # If you alter static files often, please use 
+    # add_header Cache-Control "max-age=31536000, public, must-revalidate, proxy-revalidate";
+    ##
+    location ~* \.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|odb|odc|odf|odg|odp|ods|odt|ogg|ogv|otf|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|t?gz|tif|tiff|ttf|wav|webm|wma|woff|wri|xla|xls|xlsx|xlt|xlw|zip)$ {
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+    }
+  
+    ## These locations would be hidden by .htaccess normally
+    location ^~ /app/                { deny all; }
+    location ^~ /includes/           { deny all; }
+    location ^~ /lib/                { deny all; }
+    location ^~ /media/downloadable/ { deny all; }
+    location ^~ /pkginfo/            { deny all; }
+    location ^~ /report/config.xml   { deny all; }
+    location ^~ /var/                { deny all; }
+  
+    location /var/export/ { ## Allow admins only to view export folder
+        auth_basic           "Restricted"; ## Message shown in login window
+        auth_basic_user_file htpasswd; ## See /etc/nginx/htpassword
+        autoindex            on;
+    }
+  
+    # Block access to "hidden" files and directories whose names begin with a
+    # period. This includes directories used by version control systems such
+    # as Subversion or Git to store control files.
+    location ~ (^|/)\. {
+        return 403;
+    }
+
+
+	location ~ .php/ { ## Forward paths like /js/index.php/x.js to relevant handler
+        rewrite ^(.*.php)/ $1 last;
+    }
+
+	location @handler { ## Magento uses a common front handler
+		rewrite / /index.php;
+	}
+
+
+
+
+
+    location / {
+             try_files /maintenance.html $uri $uri/ @handler; ## If missing pass the URI to Magento's front handler
+             expires 30d; ## Assume all files are cachable
+
+		location ~* ^.+\.(jpeg|jpg|png|gif|bmp|ico|svg|css|js)$ {
+            expires     max;
+        }
+
+        location ~ [^/]\.php(/|$) {
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            if (!-f $document_root$fastcgi_script_name) {
+                return  404;
+            }
+
+            fastcgi_pass    127.0.0.1:9010;
+            fastcgi_index   index.php;
+            fastcgi_param SCRIPT_FILENAME $request_filename;
+            fastcgi_intercept_errors on;
+            include         /etc/nginx/fastcgi_params;
+        }
+    }
+
+    error_page  403 /error/404.html;
+    error_page  404 /error/404.html;
+    error_page  500 502 503 504 /error/50x.html;
+
+    location /error/ {
+        alias   /home/demo/web/demo3.mageticaret.com/document_errors/;
+    }
+
+    location ~* "/\.(htaccess|htpasswd)$" {
+        deny    all;
+        return  404;
+    }
+
+    location /vstats/ {
+        alias   /home/demo/web/demo3.mageticaret.com/stats/;
+        include /home/demo/web/demo3.mageticaret.com/stats/auth.conf*;
+    }
+
+    include     /etc/nginx/conf.d/phpmyadmin.inc*;
+    include     /etc/nginx/conf.d/phppgadmin.inc*;
+    include     /etc/nginx/conf.d/webmail.inc*;
+
+    include     /home/demo/conf/web/nginx.demo3.mageticaret.com.conf*;
+}
+server {
+    listen      136.243.56.4:80;
+    server_name demo5.mageticaret.com www.demo5.mageticaret.com;
+    root        /home/demo/web/demo5.mageticaret.com/public_html;
+    index       index.php index.html index.htm;
+    access_log  /var/log/nginx/domains/demo5.mageticaret.com.log combined;
+    access_log  /var/log/nginx/domains/demo5.mageticaret.com.bytes bytes;
+    error_log   /var/log/nginx/domains/demo5.mageticaret.com.error.log error;
+
+#   ssl         on;
+#   ssl_certificate      /home/demo/conf/web/ssl.demo5.mageticaret.com.pem;
+#   ssl_certificate_key  /home/demo/conf/web/ssl.demo5.mageticaret.com.key;
+
+    rewrite ^/(.*\.php)(/)(.*)$ /$1?file=/$3 last;
+
+    location = /favicon.ico {
+        log_not_found off;
+        access_log off;
+    }
+
+    location = /robots.txt {
+        allow all;
+        log_not_found off;
+        access_log off;
+    }
+
+    # Very rarely should these ever be accessed outside of your lan
+    location ~* \.(txt|log)$ {
+        allow 192.168.0.0/16;
+        deny all;
+    }
+
+    location /downloader {
+		if ($request_uri = '') {
+			return http://www.urbandictionary.com/define.php?term=smartass;
+		}
+    }
+
+	location ~ \..*/.*\.php$ {
+		return 403;
+	}
+
+	client_max_body_size 500M;
+
+    if ($http_user_agent ~* (netcrawl|npbot|malicious|apache-httpclient|JoeDog|Siege|foo|bar|apache)) {
+        return 403;
+    }
+
+    ##
+    # Rewrite for versioned CSS+JS via filemtime
+    ##
+    location ~* ^.+\.(css|js)$ {
+        rewrite ^(.+)\.(\d+)\.(css|js)$ $1.$3 last;
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+    }
+    ##
+    # Aggressive caching for static files
+    # If you alter static files often, please use 
+    # add_header Cache-Control "max-age=31536000, public, must-revalidate, proxy-revalidate";
+    ##
+    location ~* \.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|odb|odc|odf|odg|odp|ods|odt|ogg|ogv|otf|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|t?gz|tif|tiff|ttf|wav|webm|wma|woff|wri|xla|xls|xlsx|xlt|xlw|zip)$ {
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+    }
+  
+    ## These locations would be hidden by .htaccess normally
+    location ^~ /app/                { deny all; }
+    location ^~ /includes/           { deny all; }
+    location ^~ /lib/                { deny all; }
+    location ^~ /media/downloadable/ { deny all; }
+    location ^~ /pkginfo/            { deny all; }
+    location ^~ /report/config.xml   { deny all; }
+    location ^~ /var/                { deny all; }
+  
+    location /var/export/ { ## Allow admins only to view export folder
+        auth_basic           "Restricted"; ## Message shown in login window
+        auth_basic_user_file htpasswd; ## See /etc/nginx/htpassword
+        autoindex            on;
+    }
+  
+    # Block access to "hidden" files and directories whose names begin with a
+    # period. This includes directories used by version control systems such
+    # as Subversion or Git to store control files.
+    location ~ (^|/)\. {
+        return 403;
+    }
+
+	location ~ .php/ { ## Forward paths like /js/index.php/x.js to relevant handler
+        rewrite ^(.*.php)/ $1 last;
+    }
+	
+	location @handler { ## Magento uses a common front handler
+		rewrite / /index.php;
+	}
+
+    location / {
+        try_files /maintenance.html $uri $uri/ @handler; ## If missing pass the URI to Magento's front handler
+        expires 30d; ## Assume all files are cachable
+
+		location ~* ^.+\.(jpeg|jpg|png|gif|bmp|ico|svg|css|js)$ {
+            expires     max;
+        }
+
+        location ~ [^/]\.php(/|$) {
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            if (!-f $document_root$fastcgi_script_name) {
+                return  404;
+            }
+
+            fastcgi_pass    127.0.0.1:9012;
+            fastcgi_index   index.php;
+            fastcgi_param SCRIPT_FILENAME $request_filename;
+            fastcgi_intercept_errors on;
+            include         /etc/nginx/fastcgi_params;
+        }
+    }
+
+    error_page  403 /error/404.html;
+    error_page  404 /error/404.html;
+    error_page  500 502 503 504 /error/50x.html;
+
+    location /error/ {
+        alias   /home/demo/web/demo5.mageticaret.com/document_errors/;
+    }
+
+    location ~* "/\.(htaccess|htpasswd)$" {
+        deny    all;
+        return  404;
+    }
+
+    location /vstats/ {
+        alias   /home/demo/web/demo5.mageticaret.com/stats/;
+        include /home/demo/web/demo5.mageticaret.com/stats/auth.conf*;
+    }
+
+    include     /etc/nginx/conf.d/phpmyadmin.inc*;
+    include     /etc/nginx/conf.d/phppgadmin.inc*;
+    include     /etc/nginx/conf.d/webmail.inc*;
+
+    include     /home/demo/conf/web/nginx.demo5.mageticaret.com.conf*;
+}
+server {
+    listen      136.243.56.4:80;
+    server_name demo1.mageticaret.com www.demo1.mageticaret.com;
+    root        /home/demo/web/demo1.mageticaret.com/public_html;
+    index       index.php index.html index.htm;
+    access_log  /var/log/nginx/domains/demo1.mageticaret.com.log combined;
+    access_log  /var/log/nginx/domains/demo1.mageticaret.com.bytes bytes;
+    error_log   /var/log/nginx/domains/demo1.mageticaret.com.error.log error;
+
+#   ssl         on;
+#   ssl_certificate      /home/demo/conf/web/ssl.demo1.mageticaret.com.pem;
+#   ssl_certificate_key  /home/demo/conf/web/ssl.demo1.mageticaret.com.key;
+
+    rewrite ^/(.*\.php)(/)(.*)$ /$1?file=/$3 last;
+
+    location = /favicon.ico {
+        log_not_found off;
+        access_log off;
+    }
+
+    location = /robots.txt {
+        allow all;
+        log_not_found off;
+        access_log off;
+    }
+
+    # Very rarely should these ever be accessed outside of your lan
+    location ~* \.(txt|log)$ {
+        allow 192.168.0.0/16;
+        deny all;
+    }
+    
+
+    location /downloader {
+		if ($request_uri = '') {
+			return http://www.urbandictionary.com/define.php?term=smartass;
+		}
+    }
+
+	location ~ \..*/.*\.php$ {
+		return 403;
+	}
+
+	client_max_body_size 500M;
+
+    if ($http_user_agent ~* (netcrawl|npbot|malicious|apache-httpclient|JoeDog|Siege|foo|bar|apache)) {
+        return 403;
+    }
+
+    ##
+    # Rewrite for versioned CSS+JS via filemtime
+    ##
+    location ~* ^.+\.(css|js)$ {
+        rewrite ^(.+)\.(\d+)\.(css|js)$ $1.$3 last;
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+    }
+    ##
+    # Aggressive caching for static files
+    # If you alter static files often, please use 
+    # add_header Cache-Control "max-age=31536000, public, must-revalidate, proxy-revalidate";
+    ##
+    location ~* \.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|odb|odc|odf|odg|odp|ods|odt|ogg|ogv|otf|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|t?gz|tif|tiff|ttf|wav|webm|wma|woff|wri|xla|xls|xlsx|xlt|xlw|zip)$ {
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+    }
+  
+    ## These locations would be hidden by .htaccess normally
+    location ^~ /app/                { deny all; }
+    location ^~ /includes/           { deny all; }
+    location ^~ /lib/                { deny all; }
+    location ^~ /media/downloadable/ { deny all; }
+    location ^~ /pkginfo/            { deny all; }
+    location ^~ /report/config.xml   { deny all; }
+    location ^~ /var/                { deny all; }
+  
+    location /var/export/ { ## Allow admins only to view export folder
+        auth_basic           "Restricted"; ## Message shown in login window
+        auth_basic_user_file htpasswd; ## See /etc/nginx/htpassword
+        autoindex            on;
+    }
+  
+    # Block access to "hidden" files and directories whose names begin with a
+    # period. This includes directories used by version control systems such
+    # as Subversion or Git to store control files.
+    location ~ (^|/)\. {
+        return 403;
+    }
+
+	location ~ .php/ { ## Forward paths like /js/index.php/x.js to relevant handler
+        rewrite ^(.*.php)/ $1 last;
+    }
+	
+	location @handler { ## Magento uses a common front handler
+		rewrite / /index.php;
+	}
+
+    location / {
+        try_files /maintenance.html $uri $uri/ @handler; ## If missing pass the URI to Magento's front handler
+        expires 30d; ## Assume all files are cachable
+
+		location ~* ^.+\.(jpeg|jpg|png|gif|bmp|ico|svg|css|js)$ {
+            expires     max;
+        }
+
+        location ~ [^/]\.php(/|$) {
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            if (!-f $document_root$fastcgi_script_name) {
+                return  404;
+            }
+
+            fastcgi_pass    127.0.0.1:9007;
+            fastcgi_index   index.php;
+            fastcgi_param SCRIPT_FILENAME $request_filename;
+            fastcgi_intercept_errors on;
+            include         /etc/nginx/fastcgi_params;
+        }
+    }
+
+    error_page  403 /error/404.html;
+    error_page  404 /error/404.html;
+    error_page  500 502 503 504 /error/50x.html;
+
+    location /error/ {
+        alias   /home/demo/web/demo1.mageticaret.com/document_errors/;
+    }
+
+    location ~* "/\.(htaccess|htpasswd)$" {
+        deny    all;
+        return  404;
+    }
+
+    location /vstats/ {
+        alias   /home/demo/web/demo1.mageticaret.com/stats/;
+        include /home/demo/web/demo1.mageticaret.com/stats/auth.conf*;
+    }
+
+    include     /etc/nginx/conf.d/phpmyadmin.inc*;
+    include     /etc/nginx/conf.d/phppgadmin.inc*;
+    include     /etc/nginx/conf.d/webmail.inc*;
+
+    include     /home/demo/conf/web/nginx.demo1.mageticaret.com.conf*;
+}
+server {
+    listen      136.243.56.4:80;
+    server_name demo4.mageticaret.com www.demo4.mageticaret.com hilan.mageticaret.me;
+    root        /home/demo/web/demo4.mageticaret.com/public_html;
+    index       index.php index.html index.htm;
+    access_log  /var/log/nginx/domains/demo4.mageticaret.com.log combined;
+    access_log  /var/log/nginx/domains/demo4.mageticaret.com.bytes bytes;
+    error_log   /var/log/nginx/domains/demo4.mageticaret.com.error.log error;
+
+#   ssl         on;
+#   ssl_certificate      /home/demo/conf/web/ssl.demo4.mageticaret.com.pem;
+#   ssl_certificate_key  /home/demo/conf/web/ssl.demo4.mageticaret.com.key;
+
+    rewrite ^/(.*\.php)(/)(.*)$ /$1?file=/$3 last;
+
+    location = /favicon.ico {
+        log_not_found off;
+        access_log off;
+    }
+
+    location = /robots.txt {
+        allow all;
+        log_not_found off;
+        access_log off;
+    }
+
+    # Very rarely should these ever be accessed outside of your lan
+    location ~* \.(txt|log)$ {
+        allow 192.168.0.0/16;
+        deny all;
+    }
+
+    location /downloader {
+		if ($request_uri = '') {
+			return http://www.urbandictionary.com/define.php?term=smartass;
+		}
+    }
+
+	location ~ \..*/.*\.php$ {
+		return 403;
+	}
+
+	client_max_body_size 500M;
+
+    if ($http_user_agent ~* (netcrawl|npbot|malicious|apache-httpclient|JoeDog|Siege|foo|bar|apache)) {
+        return 403;
+    }
+
+    ##
+    # Rewrite for versioned CSS+JS via filemtime
+    ##
+    location ~* ^.+\.(css|js)$ {
+        rewrite ^(.+)\.(\d+)\.(css|js)$ $1.$3 last;
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+    }
+    ##
+    # Aggressive caching for static files
+    # If you alter static files often, please use 
+    # add_header Cache-Control "max-age=31536000, public, must-revalidate, proxy-revalidate";
+    ##
+    location ~* \.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|odb|odc|odf|odg|odp|ods|odt|ogg|ogv|otf|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|t?gz|tif|tiff|ttf|wav|webm|wma|woff|wri|xla|xls|xlsx|xlt|xlw|zip)$ {
+        expires 31536000s;
+        access_log off;
+        log_not_found off;
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';
+        add_header Pragma public;
+        add_header Cache-Control "max-age=31536000, public";
+    }
+  
+    ## These locations would be hidden by .htaccess normally
+    location ^~ /app/                { deny all; }
+    location ^~ /includes/           { deny all; }
+    location ^~ /lib/                { deny all; }
+    location ^~ /media/downloadable/ { deny all; }
+    location ^~ /pkginfo/            { deny all; }
+    location ^~ /report/config.xml   { deny all; }
+    location ^~ /var/                { deny all; }
+  
+    location /var/export/ { ## Allow admins only to view export folder
+        auth_basic           "Restricted"; ## Message shown in login window
+        auth_basic_user_file htpasswd; ## See /etc/nginx/htpassword
+        autoindex            on;
+    }
+  
+    # Block access to "hidden" files and directories whose names begin with a
+    # period. This includes directories used by version control systems such
+    # as Subversion or Git to store control files.
+    location ~ (^|/)\. {
+        return 403;
+    }
+
+	location ~ .php/ { ## Forward paths like /js/index.php/x.js to relevant handler
+        rewrite ^(.*.php)/ $1 last;
+    }
+	
+	location @handler { ## Magento uses a common front handler
+		rewrite / /index.php;
+	}
+
+    location / {
+        try_files /maintenance.html $uri $uri/ @handler; ## If missing pass the URI to Magento's front handler
+        expires 30d; ## Assume all files are cachable
+
+		location ~* ^.+\.(jpeg|jpg|png|gif|bmp|ico|svg|css|js)$ {
+            expires     max;
+        }
+
+        location ~ [^/]\.php(/|$) {
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            if (!-f $document_root$fastcgi_script_name) {
+                return  404;
+            }
+
+            fastcgi_pass    127.0.0.1:9011;
+            fastcgi_index   index.php;
+            fastcgi_param SCRIPT_FILENAME $request_filename;
+            fastcgi_intercept_errors on;
+            include         /etc/nginx/fastcgi_params;
+        }
+    }
+
+    error_page  403 /error/404.html;
+    error_page  404 /error/404.html;
+    error_page  500 502 503 504 /error/50x.html;
+
+    location /error/ {
+        alias   /home/demo/web/demo4.mageticaret.com/document_errors/;
+    }
+
+    location ~* "/\.(htaccess|htpasswd)$" {
+        deny    all;
+        return  404;
+    }
+
+    location /vstats/ {
+        alias   /home/demo/web/demo4.mageticaret.com/stats/;
+        include /home/demo/web/demo4.mageticaret.com/stats/auth.conf*;
+    }
+
+    include     /etc/nginx/conf.d/phpmyadmin.inc*;
+    include     /etc/nginx/conf.d/phppgadmin.inc*;
+    include     /etc/nginx/conf.d/webmail.inc*;
+
+    include     /home/demo/conf/web/nginx.demo4.mageticaret.com.conf*;
+}

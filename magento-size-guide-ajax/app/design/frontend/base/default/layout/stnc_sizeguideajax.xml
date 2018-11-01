@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<layout version="0.1.0">
+    <catalog_product_view>
+        <reference name="head">
+            <action method="addJs"><script>stnc/stnc_sizeguide.js</script></action>
+            <action method="addCss"><script>css/stnc_sizeguide.css</script></action>
+        </reference>
+        <reference name="product.info.options.wrapper">
+           <block type="catalog/product_view" name="footer1"  template="stnc/size_guide.phtml"/>
+            <block type="catalog/product_view" name="footer2"  template="stnc/size_guide_link.phtml"/>
+        </reference>
+    </catalog_product_view>
+</layout>

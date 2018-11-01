@@ -1,0 +1,13 @@
+﻿<?php
+$control= Mage::getStoreConfig('stnc/stnc_modalboxAdmin/stnc_ModalBoxShow',Mage::app()->getStore());
+if ($control){
+?>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <?php $BlockID= Mage::getStoreConfig('stnc/stnc_modalboxAdmin/stnc_BlockName',Mage::app()->getStore());
+             echo $this->getLayout()->createBlock('cms/block')->setBlockId($BlockID)->toHtml()
+            ?>
+        </div>
+    </div>
+<?php }  ?>

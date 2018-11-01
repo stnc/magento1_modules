@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addCss">
+                <script>stnc/css/stnc_modalbox.css</script>
+            </action>
+            <action method="addJs">
+                <script>stnc/stnc_modalbox.js</script>
+            </action>
+        </reference>
+
+        <reference name="before_body_end">
+            <block type="core/template" name="controller_tool_javascript" template="stnc/modalbox.phtml"/>
+        </reference>
+    </default>
+</layout>

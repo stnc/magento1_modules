@@ -1,0 +1,110 @@
+
+/*-----------------------bedenler modalbox  --------------------------------*/
+.erkek_ust_kisimlar.active,
+.kiz_bebek_ust_kisim.active,
+.erkek_bebek_ust_kisim.active,
+.kiz_cocuk_ust_kisimlar.active{
+    display: block;
+}
+
+.kiz_bebek_ust_kisim,
+.kiz_bebek_etek_pantalon,
+.kiz_bebek_elbise,
+.erkek_pantalon,
+.erkek_bebek_ust_kisim,
+.erkek_ust_kisimlar,
+.erkek_pantalon,
+.kiz_cocuk_ust_kisimlar,
+.kiz_cocuk_elbise,
+.kiz_cocuk_etek_pantalon{
+    display: none;
+}
+
+.container-bedenler .nav>li>a {
+    padding: 5px;
+}
+.container-bedenler .tab-pane ul li {
+    height: 20px;
+    width: auto;
+    margin: 0 10px 6px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 20px;
+}
+.container-bedenler .tab-pane ul{
+    max-width: 600px;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.container-bedenler .tab-pane div{
+    margin-top: 20px;
+}
+.responsive-tabs-container .tab-pane {
+    margin-bottom: 15px;
+}
+
+.responsive-tabs-container .accordion-link {
+    display: none;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+@media (max-width: 767px) {
+    .responsive-tabs-container.accordion-xs .nav-tabs {
+        display: none;
+    }
+
+    .responsive-tabs-container.accordion-xs .accordion-link {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .responsive-tabs-container.accordion-sm .nav-tabs {
+        display: none;
+    }
+
+    .responsive-tabs-container.accordion-sm .accordion-link {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .responsive-tabs-container.accordion-md .nav-tabs {
+        display: none;
+    }
+
+    .responsive-tabs-container.accordion-md .accordion-link {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .responsive-tabs-container.accordion-lg .nav-tabs {
+        display: none;
+    }
+
+    .responsive-tabs-container.accordion-lg .accordion-link {
+        display: block;
+    }
+}
+
+.responsive-tabs-container h2 {
+    font-size: 18px;
+}
+
+.responsive-tabs-container table.table td {
+    font-size: 12px;
+}
+
+.responsive-tabs-container .responsive-tabs {
+    padding: 0;
+}

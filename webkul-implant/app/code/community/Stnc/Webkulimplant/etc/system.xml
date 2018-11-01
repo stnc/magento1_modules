@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <stnc translate="label" module="stnc_webkulimplant">
+            <label>MageTicaret</label>
+            <sort_order>100</sort_order>
+        </stnc>
+    </tabs>
+    <sections>
+        <stnc_webkulimplant translate="label" module="stnc_webkulimplant">
+            <label>WEbKUL Marketing Extra Ayarlar</label>
+            <tab>stnc</tab>
+            <sort_order>1001</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <stnc_webkulAlan1 translate="label">
+                    <label>Extra Ayarlar</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <stnc_webkulMarketSocialView translate="label">
+                            <label>Mağaza sayfasında sosyal medya butonları görünsün </label>
+                            <comment>Mağaza sayfasında sosyal medya butonları görünsün</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </stnc_webkulMarketSocialView>
+
+                        <stnc_webkulProcudtListMagazaInfo translate="label">
+                            <label>Ürün listeleme sayfasında mağaza bilgisi görünsün</label>
+                            <comment>Ürün listeleme sayfasında mağaza bilgisi görünsün</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </stnc_webkulProcudtListMagazaInfo>
+
+                        <Stnc_webkulProcudtListMagazaInfoAnasayfa translate="label">
+                            <label>Anasayfadaki ürünlerde mağaza bilgisi görünsün</label>
+                            <comment>Anasayfadaki ürünlerde mağaza bilgisi görünsün</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </Stnc_webkulProcudtListMagazaInfoAnasayfa>
+                    </fields>
+                </stnc_webkulAlan1>
+
+                <stnc_webkulAlan12 translate="label" module="stnc_webkulimplant">
+                    <label>Diğer</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+
+                        <stnc_webkulMarketKargoAlanıKaldirma translate="label">
+                            <label>Ücretsiz kargo seçeneği açık olacak ,sepetten kargo sekmesini kaldır </label>
+                            <comment>Eğer sitede ücretsiz kargo açık olacaksa bu seçeneği işaretleyiniz</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </stnc_webkulMarketKargoAlanıKaldirma>
+
+                    </fields>
+
+                </stnc_webkulAlan12>
+
+            </groups>
+        </stnc_webkulimplant>
+
+
+    </sections>
+
+
+</config>

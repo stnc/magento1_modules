@@ -1,0 +1,55 @@
+<?php
+/**
+ * GoogleTagManager plugin for Magento
+ *
+ * @package     Yireo_GoogleTagManager
+ * @author      Yireo (https://www.yireo.com/)
+ * @copyright   Copyright (c) 2017 Yireo (https://www.yireo.com/)
+ * @license     Open Software License
+ */
+
+/** @var Yireo_GoogleTagManager_Block_Head $block */
+
+?>
+<?php if ($this->isEnabled()) : ?>
+    <script>
+        var dataLayer = [];
+        dataLayer.push({
+            'google_tag_params': {
+                'ecomm_prodid': Array(10)
+                0: "3055198"
+                1: "2434469"
+                2: "2454653"
+                3: "3055198"
+                4: "2464469"
+                5: "2474653"
+                6: "2484653"
+                7: "3095198"
+                8: "2424469"
+                9: "2414653",
+                'ecomm_category': Array(4)
+                0: "Bot"
+                1: "Ayakkabı"
+                2: "Çanta"
+                3: "Aksesuar",
+                'ecomm_pagetype': 'category'
+            },
+            'gender': 'female',
+            'membertype': 'visitor',
+            'event': 'viewList'
+        });
+
+        (function (w, d, s, l, i) {
+            if (i == '') {
+                return console.log('No GTM ID provided');
+            }
+            w[l] = w[l] || [];
+            w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+            if (i == 'DEBUG') return console.log(w[l]);
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', '<?= $this->getId(); ?>');
+    </script>
+<?php endif; ?>

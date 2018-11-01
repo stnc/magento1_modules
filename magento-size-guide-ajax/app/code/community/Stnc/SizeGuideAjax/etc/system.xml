@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <stnc translate="label" module="stnc_sizeguideajax">
+            <label>MagetIcaret ExtensIons</label>
+            <sort_order>100</sort_order>
+        </stnc>
+    </tabs>
+    <sections>
+        <stnc translate="label" module="stnc_sizeguideajax">
+            <label>Size Guide Options</label>
+            <tab>stnc</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <stnc_group translate="label" module="stnc_sizeguideajax">
+                    <label>Size Guide Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <stnc_input_BlockName translate="label">
+                            <label>Title</label>
+                            <comment>ModalBox Title</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_input_BlockName>
+
+                        <stnc_inputBlockid translate="label">
+                            <label>Block ID</label>
+                            <comment>Block id</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stnc_inputBlockid>
+
+
+
+                        <stnc_select translate="label">
+                            <label>Size Guide Show</label>
+                            <comment>Yes/No values</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </stnc_select>
+                    </fields>
+                </stnc_group>
+            </groups>
+        </stnc>
+    </sections>
+
+
+</config>

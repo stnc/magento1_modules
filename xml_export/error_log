@@ -1,0 +1,997 @@
+[02-Nov-2015 13:24:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/sevilcore/public_html/xml_export/export_google.php on line 48
+[05-Nov-2015 14:04:52 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getProductByAttributes() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 91
+[05-Nov-2015 14:10:05 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[05-Nov-2015 14:13:18 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[05-Nov-2015 14:23:36 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Abstract::getId() in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Type/Simple.php on line 47
+[05-Nov-2015 14:30:51 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Abstract::getId() in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Type/Simple.php on line 47
+[09-Nov-2015 11:01:17 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Abstract::getId() in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Type/Simple.php on line 47
+[24-Jan-2016 00:23:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/sevilcore/public_html/xml_export/export_criteo.php on line 104
+[24-Jan-2016 00:25:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/sevilcore/public_html/xml_export/export_criteo.php on line 104
+[24-Jan-2016 00:26:01 UTC] PHP Fatal error:  Call to a member function getName() on a non-object in /home/sevilcore/public_html/xml_export/export_criteo.php on line 95
+[24-Jan-2016 00:26:35 UTC] PHP Fatal error:  Call to a member function getName() on a non-object in /home/sevilcore/public_html/xml_export/export_criteo.php on line 95
+[24-Jan-2016 00:27:27 UTC] PHP Fatal error:  Call to a member function getName() on a non-object in /home/sevilcore/public_html/xml_export/export_criteo.php on line 89
+[24-Jan-2016 00:38:02 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Abstract::getId() in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Type/Simple.php on line 47
+[24-Jan-2016 00:56:17 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 00:57:22 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 00:57:46 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 01:01:28 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 01:01:42 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 01:02:11 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 01:03:01 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 01:03:30 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 01:12:17 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 18:58:08 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[24-Jan-2016 18:59:11 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getId() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 95
+[16-Feb-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[16-Feb-2016 00:00:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[16-Feb-2016 00:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 58
+[17-Feb-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[17-Feb-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[17-Feb-2016 00:01:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[18-Feb-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 145
+[18-Feb-2016 00:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 593
+[19-Feb-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 630
+[19-Feb-2016 00:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 292
+[20-Feb-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 657
+[20-Feb-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[21-Feb-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 941
+[21-Feb-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 368
+[22-Feb-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 608
+[22-Feb-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[23-Feb-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1048
+[24-Feb-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[24-Feb-2016 00:00:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Feb-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 165
+[25-Feb-2016 00:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Config.php on line 622
+[25-Feb-2016 00:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 840
+[26-Feb-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 150
+[26-Feb-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 425
+[27-Feb-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 997
+[27-Feb-2016 00:01:23 UTC] PHP Fatal error:  Call to a member function isAdmin() on a non-object in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Session.php on line 108
+[27-Feb-2016 00:01:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1273
+[27-Feb-2016 00:01:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1273
+[27-Feb-2016 00:01:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1273
+[27-Feb-2016 00:01:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1273
+[27-Feb-2016 00:01:23 UTC] PHP Catchable fatal error:  Object of class Mage_Core_Model_Store could not be converted to string in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 844
+[28-Feb-2016 00:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 74
+[28-Feb-2016 00:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 814
+[29-Feb-2016 00:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1232
+[29-Feb-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Backend/Abstract.php on line 187
+[01-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1049
+[01-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1016
+[02-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 217
+[03-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 73
+[03-Mar-2016 00:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Store.php on line 720
+[04-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 64
+[04-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[05-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 217
+[05-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 270
+[06-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[06-Mar-2016 00:00:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[06-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 415
+[07-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 198
+[07-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 458
+[08-Mar-2016 00:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 198
+[08-Mar-2016 00:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 264
+[09-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1047
+[09-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1033
+[10-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 210
+[10-Mar-2016 00:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 58
+[11-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 252
+[11-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 0
+[12-Mar-2016 00:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 0
+[12-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1118
+[13-Mar-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 907
+[13-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Attribute/Backend/Media.php on line 110
+[14-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 393
+[15-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Store.php on line 720
+[15-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[16-Mar-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 265
+[16-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 702
+[17-Mar-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 409
+[17-Mar-2016 00:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 237
+[18-Mar-2016 00:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 680
+[19-Mar-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 703
+[19-Mar-2016 00:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 703
+[20-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1247
+[20-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 186
+[21-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 166
+[21-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 0
+[22-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[22-Mar-2016 00:00:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[22-Mar-2016 00:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 91
+[23-Mar-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Attribute/Backend/Groupprice/Abstract.php on line 0
+[23-Mar-2016 00:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 986
+[24-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[24-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 703
+[25-Mar-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1184
+[25-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 195
+[26-Mar-2016 00:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 997
+[26-Mar-2016 00:00:40 UTC] PHP Fatal error:  Call to a member function isAdmin() on a non-object in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Session.php on line 108
+[26-Mar-2016 00:00:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1273
+[26-Mar-2016 00:00:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1273
+[26-Mar-2016 00:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 625
+[27-Mar-2016 00:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 446
+[27-Mar-2016 00:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 456
+[28-Mar-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 267
+[28-Mar-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 366
+[29-Mar-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Cache/Backend/File.php on line 258
+[29-Mar-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 704
+[30-Mar-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 1017
+[30-Mar-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1027
+[31-Mar-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1247
+[31-Mar-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 381
+[01-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[01-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Cache/Backend/File.php on line 208
+[02-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 433
+[02-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 703
+[03-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[03-Apr-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 289
+[04-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 416
+[04-Apr-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1118
+[05-Apr-2016 23:00:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_[06-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1087
+[06-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 315
+[07-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[07-Apr-2016 23:00:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[07-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 1031
+[08-Apr-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 251
+[08-Apr-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 341
+[09-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 107
+[09-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 88
+[10-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[10-Apr-2016 23:01:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 788
+[11-Apr-2016 23:00:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1286 Unknown storage engine 'InnoDB'' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_ca...', Array)
+#5 /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `core_ca...', Array)
+#6 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(811): Varien_Db_Adapter_Pdo_Mysql->que in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[11-Apr-2016 23:00:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1286 Unknown storage engine 'InnoDB'' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_ca...', Array)
+#5 /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `core_ca...', Array)
+#6 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(811): Varien_Db_Adapter_Pdo_Mysql->que in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[12-Apr-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1021
+[13-Apr-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 141
+[13-Apr-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 266
+[14-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 195
+[14-Apr-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 703
+[15-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[15-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 199
+[16-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1049
+[16-Apr-2016 23:01:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 606
+[17-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 228
+[17-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Cache/Core.php on line 130
+[18-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 335
+[18-Apr-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 195
+[19-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1130
+[19-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[20-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 347
+[20-Apr-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 367
+[21-Apr-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[21-Apr-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 350
+[22-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 323
+[22-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 195
+[23-Apr-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[23-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1049
+[24-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale.php on line 1009
+[24-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[25-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 449
+[25-Apr-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 701
+[26-Apr-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 166
+[26-Apr-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 91
+[27-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 0
+[27-Apr-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[28-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[29-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 123
+[29-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 81
+[30-Apr-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Expr.php on line 74
+[30-Apr-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 954
+[01-May-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 657
+[01-May-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php on line 340
+[02-May-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[03-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Eav/Attribute.php on line 257
+[03-May-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 764
+[04-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[04-May-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 3089
+[05-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[05-May-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[05-May-2016 23:01:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[06-May-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 211
+[06-May-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[06-May-2016 23:01:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[07-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1077
+[07-May-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php on line 173
+[08-May-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Backend/Abstract.php on line 183
+[08-May-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Config.php on line 0
+[09-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 732
+[09-May-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 639
+[10-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[11-May-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 1427
+[11-May-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[12-May-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Attribute/Backend/Media.php on line 53
+[12-May-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 88
+[13-May-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 4988
+[13-May-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 455
+[14-May-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1184
+[14-May-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 483
+[15-May-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1274
+[15-May-2016 23:01:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 180
+[16-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 704
+[16-May-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 181
+[17-May-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 931
+[18-May-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1013
+[19-May-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 139
+[19-May-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 181
+[20-May-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 296
+[20-May-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 195
+[21-May-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 276
+[21-May-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1005
+[22-May-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 931
+[22-May-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 625
+[23-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 141
+[23-May-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 265
+[24-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1099
+[24-May-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 239
+[25-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1217
+[25-May-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[26-May-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1017
+[26-May-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Category/Flat.php on line 168
+[27-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 181
+[27-May-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[28-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 399
+[28-May-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 323
+[29-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 140
+[29-May-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 702
+[30-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 697
+[30-May-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 827
+[31-May-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Locale.php on line 520
+[31-May-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 518
+[01-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 197
+[01-Jun-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 707
+[02-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[02-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 941
+[03-Jun-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1144
+[03-Jun-2016 23:01:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 164
+[04-Jun-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php on line 0
+[04-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 704
+[05-Jun-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale.php on line 1054
+[05-Jun-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 0
+[06-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Cache/Backend/File.php on line 864
+[06-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/CatalogInventory/Model/Stock/Item.php on line 276
+[07-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 832
+[07-Jun-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 704
+[08-Jun-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 1071
+[08-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 323
+[09-Jun-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 96
+[09-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[09-Jun-2016 23:01:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[10-Jun-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 1084
+[10-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 756
+[11-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 954
+[11-Jun-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 253
+[12-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 253
+[12-Jun-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 266
+[13-Jun-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 1071
+[13-Jun-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 181
+[14-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 74
+[14-Jun-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 203
+[15-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[15-Jun-2016 23:00:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[15-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 88
+[16-Jun-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[16-Jun-2016 23:00:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[16-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 721
+[17-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 141
+[17-Jun-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 875
+[18-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[18-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 165
+[19-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 1071
+[19-Jun-2016 23:01:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 251
+[20-Jun-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 1071
+[20-Jun-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[21-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 283
+[21-Jun-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[22-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 606
+[22-Jun-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 1071
+[23-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 203
+[23-Jun-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[24-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 907
+[24-Jun-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Config.php on line 1346
+[25-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 184
+[25-Jun-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 703
+[26-Jun-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[26-Jun-2016 23:00:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[26-Jun-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 657
+[27-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 91
+[27-Jun-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 931
+[28-Jun-2016 23:00:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1015
+[28-Jun-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 203
+[29-Jun-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 680
+[29-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 184
+[30-Jun-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1013
+[01-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1099
+[01-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[02-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Backend/Abstract.php on line 187
+[02-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 953
+[03-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 630
+[03-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1167
+[04-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1049
+[04-Jul-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 814
+[05-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 91
+[05-Jul-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 756
+[06-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1274
+[06-Jul-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[07-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[07-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Attribute/Backend/Media.php on line 97
+[08-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 473
+[08-Jul-2016 23:01:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1045
+[09-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 209
+[09-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1049
+[10-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 199
+[11-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 704
+[11-Jul-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 910
+[12-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[12-Jul-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[13-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 426
+[13-Jul-2016 23:01:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 717
+[14-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 606
+[14-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 657
+[15-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 272
+[15-Jul-2016 23:01:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Url.php on line 147
+[16-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 296
+[16-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 604
+[17-Jul-2016 23:00:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1273
+[17-Jul-2016 23:01:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Url.php on line 717
+[18-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 0
+[18-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Source/Table.php on line 97
+[19-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 702
+[19-Jul-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 522
+[20-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Backend/Abstract.php on line 0
+[20-Jul-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php on line 340
+[21-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 335
+[21-Jul-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[22-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 165
+[22-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 341
+[23-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[23-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 264
+[24-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 258
+[24-Jul-2016 23:01:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/xml_export/export_google.php on line 54
+[25-Jul-2016 23:00:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 368
+[25-Jul-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 272
+[26-Jul-2016 23:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Helper/Image.php on line 142
+[26-Jul-2016 23:01:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 315
+[27-Jul-2016 23:01:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 702
+[28-Jul-2016 23:00:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[28-Jul-2016 23:01:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[29-Jul-2016 23:00:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[29-Jul-2016 23:01:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[30-Jul-2016 23:00:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[30-Jul-2016 23:01:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[31-Jul-2016 23:00:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[31-Jul-2016 23:01:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[01-Aug-2016 23:00:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[01-Aug-2016 23:01:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[02-Aug-2016 23:01:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[03-Aug-2016 23:01:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[04-Aug-2016 23:01:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 246
+[05-Aug-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[06-Aug-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[07-Aug-2016 23:01:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[08-Aug-2016 23:01:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 403
+[09-Aug-2016 23:01:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[10-Aug-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 939
+[11-Aug-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[12-Aug-2016 23:01:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[13-Aug-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[14-Aug-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 166
+[15-Aug-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 166
+[16-Aug-2016 23:01:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[17-Aug-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[18-Aug-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Select.php on line 1232
+[19-Aug-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 812
+[20-Aug-2016 23:01:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[21-Aug-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 980
+[22-Aug-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[23-Aug-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 375
+[08-Sep-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[10-Sep-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 906
+[11-Sep-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 74
+[12-Sep-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 525
+[13-Sep-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[14-Sep-2016 23:01:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 195
+[15-Sep-2016 23:01:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[16-Sep-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 738
+[17-Sep-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Url.php on line 223
+[18-Sep-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 739
+[19-Sep-2016 23:01:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[20-Sep-2016 23:01:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[21-Sep-2016 23:01:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 74
+[22-Sep-2016 23:01:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[23-Sep-2016 23:01:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale.php on line 1701
+[24-Sep-2016 23:01:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1043
+[25-Sep-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 85
+[26-Sep-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 908
+[27-Sep-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[28-Sep-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 366
+[29-Sep-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 504
+[30-Sep-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 999
+[01-Oct-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 738
+[02-Oct-2016 23:01:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 301
+[03-Oct-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 0
+[04-Oct-2016 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 817
+[05-Oct-2016 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 822
+[06-Oct-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1013
+[07-Oct-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 314
+[08-Oct-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 366
+[09-Oct-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1160
+[10-Oct-2016 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 657
+[11-Oct-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Locale.php on line 586
+[12-Oct-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[13-Oct-2016 23:01:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[14-Oct-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 0
+[15-Oct-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[16-Oct-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 296
+[17-Oct-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 280
+[18-Oct-2016 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1017
+[19-Oct-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Store.php on line 714
+[20-Oct-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[21-Oct-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1170
+[22-Oct-2016 23:01:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[23-Oct-2016 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[24-Oct-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 293
+[25-Oct-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 254
+[26-Oct-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[26-Oct-2016 23:01:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[27-Oct-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 199
+[28-Oct-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Attribute/Backend/Groupprice/Abstract.php on line 243
+[29-Oct-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 119
+[30-Oct-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[31-Oct-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Backend/Abstract.php on line 99
+[01-Nov-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[02-Nov-2016 23:01:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 251
+[03-Nov-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 323
+[04-Nov-2016 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1011
+[05-Nov-2016 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 740
+[06-Nov-2016 23:01:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 875
+[07-Nov-2016 23:01:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 221
+[08-Nov-2016 23:02:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 0
+[09-Nov-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale.php on line 1929
+[10-Nov-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 279
+[11-Nov-2016 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 315
+[12-Nov-2016 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 73
+[13-Nov-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 824
+[14-Nov-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1043
+[15-Nov-2016 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 180
+[17-Nov-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[18-Nov-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 254
+[19-Nov-2016 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1294
+[20-Nov-2016 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Attribute/Backend/Media.php on line 257
+[21-Nov-2016 23:02:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 203
+[22-Nov-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 453
+[24-Nov-2016 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1015
+[25-Nov-2016 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 634
+[26-Nov-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php on line 340
+[28-Nov-2016 02:01:54 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 1034
+[28-Nov-2016 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 5012
+[29-Nov-2016 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1160
+[30-Nov-2016 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 1615
+[01-Dec-2016 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 195
+[02-Dec-2016 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 993
+[03-Dec-2016 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 221
+[04-Dec-2016 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1015
+[05-Dec-2016 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1236
+[06-Dec-2016 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 150
+[07-Dec-2016 23:01:58 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 3200 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 402
+[07-Dec-2016 23:02:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[08-Dec-2016 23:02:21 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[08-Dec-2016 23:03:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[09-Dec-2016 23:02:31 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[09-Dec-2016 23:03:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[10-Dec-2016 23:02:41 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[10-Dec-2016 23:03:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 74
+[11-Dec-2016 23:02:33 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[11-Dec-2016 23:03:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 74
+[12-Dec-2016 23:01:57 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 3200 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 402
+[12-Dec-2016 23:02:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 0
+[13-Dec-2016 23:02:20 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[13-Dec-2016 23:02:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 0
+[14-Dec-2016 23:02:31 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[14-Dec-2016 23:03:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 210
+[15-Dec-2016 23:02:44 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[15-Dec-2016 23:03:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[16-Dec-2016 23:02:35 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[16-Dec-2016 23:03:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 74
+[17-Dec-2016 23:03:02 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 2560001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[17-Dec-2016 23:03:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[18-Dec-2016 23:03:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[19-Dec-2016 23:01:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 74
+[20-Dec-2016 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[21-Dec-2016 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[22-Dec-2016 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[23-Dec-2016 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 252
+[24-Dec-2016 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[25-Dec-2016 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[26-Dec-2016 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 1030
+[27-Dec-2016 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[28-Dec-2016 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[29-Dec-2016 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[30-Dec-2016 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 380
+[31-Dec-2016 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[01-Jan-2017 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 419
+[02-Jan-2017 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 74
+[03-Jan-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 74
+[03-Jan-2017 23:35:14 UTC] PHP Fatal error:  Allowed memory size of 4194304000 bytes exhausted (tried to allocate 1000001 bytes) in /home/sevilcore/public_html/lib/Varien/Image/Adapter/Gd2.php on line 290
+[04-Jan-2017 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 193
+[05-Jan-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 367
+[06-Jan-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[07-Jan-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 739
+[09-Jan-2017 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 276
+[10-Jan-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 741
+[11-Jan-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 447
+[12-Jan-2017 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/xml_export/export_google.php on line 54
+[13-Jan-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[14-Jan-2017 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 1216
+[15-Jan-2017 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 254
+[16-Jan-2017 23:01:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 680
+[17-Jan-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1043
+[18-Jan-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 74
+[19-Jan-2017 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 251
+[20-Jan-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1043
+[21-Jan-2017 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Config.php on line 622
+[22-Jan-2017 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 279
+[23-Jan-2017 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/xml_export/export_google.php on line 119
+[24-Jan-2017 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 254
+[25-Jan-2017 23:01:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 979
+[26-Jan-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 448
+[27-Jan-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 58
+[28-Jan-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Type/Price.php on line 109
+[29-Jan-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 403
+[30-Jan-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Eav/Attribute.php on line 248
+[01-Feb-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 296
+[02-Feb-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[04-Feb-2017 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 0
+[05-Feb-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 114
+[06-Feb-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1139
+[07-Feb-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 0
+[08-Feb-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 2040
+[09-Feb-2017 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/xml_export/export_google.php on line 69
+[10-Feb-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 115
+[11-Feb-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 993
+[12-Feb-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 1113
+[13-Feb-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 628
+[14-Feb-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 254
+[15-Feb-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 180
+[16-Feb-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/CatalogInventory/Model/Stock/Item.php on line 156
+[17-Feb-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1292
+[18-Feb-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[19-Feb-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 249
+[20-Feb-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php on line 640
+[21-Feb-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 154
+[22-Feb-2017 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 170
+[23-Feb-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 223
+[24-Feb-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 366
+[25-Feb-2017 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 833
+[26-Feb-2017 23:01:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 291
+[27-Feb-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[28-Feb-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 0
+[01-Mar-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Locale.php on line 589
+[03-Mar-2017 23:01:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 491
+[04-Mar-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 369
+[05-Mar-2017 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 994
+[06-Mar-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 292
+[07-Mar-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1171
+[08-Mar-2017 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 993
+[09-Mar-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[09-Mar-2017 23:02:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[10-Mar-2017 23:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 479
+[11-Mar-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 739
+[12-Mar-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 697
+[13-Mar-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 252
+[14-Mar-2017 23:02:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Url.php on line 751
+[15-Mar-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1018
+[16-Mar-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[17-Mar-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[17-Mar-2017 23:02:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[18-Mar-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[19-Mar-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 281
+[20-Mar-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 999
+[21-Mar-2017 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 256
+[22-Mar-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 180
+[23-Mar-2017 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 615
+[24-Mar-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[26-Mar-2017 23:01:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[26-Mar-2017 23:02:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[27-Mar-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 73
+[28-Mar-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1293
+[29-Mar-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1160
+[30-Mar-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 628
+[31-Mar-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale.php on line 1696
+[01-Apr-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1018
+[02-Apr-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 961
+[03-Apr-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Backend/Abstract.php on line 183
+[04-Apr-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 292
+[05-Apr-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 366
+[06-Apr-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1043
+[07-Apr-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1205
+[08-Apr-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 0
+[09-Apr-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Attribute/Backend/Groupprice/Abstract.php on line 0
+[10-Apr-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 638
+[11-Apr-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[11-Apr-2017 23:02:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[12-Apr-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[13-Apr-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 0
+[14-Apr-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[15-Apr-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 866
+[16-Apr-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 136
+[17-Apr-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 998
+[19-Apr-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Credis/Client.php on line 1147
+[20-Apr-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[21-Apr-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 239
+[22-Apr-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 812
+[23-Apr-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 739
+[24-Apr-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 448
+[25-Apr-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1012
+[26-Apr-2017 23:02:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 741
+[27-Apr-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1049
+[28-Apr-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 85
+[29-Apr-2017 23:02:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 298
+[30-Apr-2017 23:00:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine' in /home/sevilcore/public_html/lib/Zend/[01-May-2017 23:02:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 546
+[02-May-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php on line 340
+[03-May-2017 23:02:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 550
+[04-May-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 199
+[05-May-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[06-May-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Attribute/Backend/Media.php on line 58
+[07-May-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Attribute/Backend/Abstract.php on line 99
+[08-May-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[09-May-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1015
+[10-May-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Config.php on line 622
+[11-May-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[11-May-2017 23:02:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[12-May-2017 23:02:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[13-May-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 198
+[14-May-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Credis/Client.php on line 1038
+[15-May-2017 23:02:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[16-May-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 859
+[17-May-2017 23:02:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Helper/Image.php on line 574
+[18-May-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Data.php on line 1615
+[19-May-2017 23:02:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 205
+[20-May-2017 23:02:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Magento/Db/Adapter/Pdo/Mysql.php on line 145
+[21-May-2017 23:02:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 110
+[22-May-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 740
+[23-May-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 298
+[24-May-2017 23:02:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[25-May-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 740
+[26-May-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[26-May-2017 23:02:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[27-May-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[27-May-2017 23:02:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[28-May-2017 23:02:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 437
+[29-May-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/App.php on line 1292
+[30-May-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 367
+[31-May-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[01-Jun-2017 23:02:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Attribute/Backend/Groupprice/Abstract.php on line 50
+[02-Jun-2017 23:02:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 2019
+[03-Jun-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 792
+[04-Jun-2017 23:02:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 367
+[05-Jun-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 853
+[06-Jun-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 528
+[07-Jun-2017 23:02:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 370
+[08-Jun-2017 23:02:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 657
+[09-Jun-2017 23:02:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 871
+[10-Jun-2017 23:02:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 166
+[11-Jun-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 448
+[12-Jun-2017 23:02:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/functions.php on line 132
+[13-Jun-2017 23:02:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 630
+[14-Jun-2017 23:02:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 0
+[15-Jun-2017 23:02:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[15-Jun-2017 23:02:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[16-Jun-2017 23:02:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 1402
+[17-Jun-2017 23:02:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 166
+[18-Jun-2017 23:02:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[18-Jun-2017 23:02:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[19-Jun-2017 23:02:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 657
+[20-Jun-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 367
+[21-Jun-2017 23:02:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[22-Jun-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 199
+[23-Jun-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 366
+[24-Jun-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 972
+[25-Jun-2017 23:02:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Config.php on line 622
+[26-Jun-2017 23:02:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1013
+[27-Jun-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 1113
+[28-Jun-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[29-Jun-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[30-Jun-2017 23:02:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 447
+[01-Jul-2017 23:02:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[02-Jul-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 1386
+[03-Jul-2017 23:02:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 182
+[04-Jul-2017 23:02:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Magento/Db/Adapter/Pdo/Mysql.php on line 118
+[05-Jul-2017 13:06:37 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getConfigurableAttributes() in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Type/Configurable/Price.php on line 77
+[05-Jul-2017 13:14:02 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getConfigurableAttributes() in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Type/Configurable/Price.php on line 77
+[05-Jul-2017 13:16:51 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getProductByAttributes() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 91
+[05-Jul-2017 13:24:58 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getProductByAttributes() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 91
+[05-Jul-2017 13:28:12 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getProductByAttributes() in /home/sevilcore/public_html/app/code/local/Amasty/Conf/Model/Catalog/Product/Type/Configurable/Price.php on line 91
+[05-Jul-2017 23:02:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 741
+[06-Jul-2017 23:02:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 770
+[07-Jul-2017 23:02:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 321
+[08-Jul-2017 23:02:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 141
+[09-Jul-2017 23:02:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 344
+[10-Jul-2017 23:02:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Credis/Client.php on line 1028
+[11-Jul-2017 23:02:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/Mage.php on line 521
+[12-Jul-2017 23:02:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[13-Jul-2017 23:02:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1122
+[14-Jul-2017 23:02:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 274
+[15-Jul-2017 23:02:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 401
+[16-Jul-2017 23:02:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1224
+[17-Jul-2017 23:02:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Attribute/Backend/Media.php on line 0
+[18-Jul-2017 23:02:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 460
+[19-Jul-2017 23:02:24 UTC] PHP Fatal error:  Maximum[20-Jul-2017 23:02:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 0
+[21-Jul-2017 23:02:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 85
+[22-Jul-2017 23:02:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 739
+[23-Jul-2017 23:02:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 628
+[24-Jul-2017 23:03:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 299
+[25-Jul-2017 23:02:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 254
+[26-Jul-2017 23:02:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 323
+[27-Jul-2017 23:03:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale.php on line 1686
+[28-Jul-2017 23:03:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Category/Flat.php on line 168
+[29-Jul-2017 23:03:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[29-Jul-2017 23:03:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[30-Jul-2017 23:03:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 265
+[31-Jul-2017 23:03:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 705
+[01-Aug-2017 23:03:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Simplexml/Element.php on line 195
+[02-Aug-2017 23:03:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 979
+[03-Aug-2017 23:03:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 738
+[04-Aug-2017 23:03:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Select.php on line 411
+[05-Aug-2017 23:03:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 166
+[06-Aug-2017 23:03:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 299
+[07-Aug-2017 23:03:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 201
+[08-Aug-2017 23:03:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 1503
+[09-Aug-2017 23:03:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Cache/Core.php on line 95
+[10-Aug-2017 23:04:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 838
+[11-Aug-2017 23:03:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 818
+[12-Aug-2017 23:03:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 1023
+[13-Aug-2017 23:03:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[14-Aug-2017 23:03:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Magento/Db/Adapter/Pdo/Mysql.php on line 113
+[15-Aug-2017 23:03:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1021
+[16-Aug-2017 23:03:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/xml_export/export_google.php on line 130
+[17-Aug-2017 23:03:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 107
+[18-Aug-2017 23:03:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[18-Aug-2017 23:03:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[19-Aug-2017 23:03:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 96
+[20-Aug-2017 23:04:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 626
+[21-Aug-2017 23:03:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 0
+[22-Aug-2017 23:03:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/xml_export/export_google.php on line 180
+[23-Aug-2017 23:03:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 270
+[24-Aug-2017 23:03:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Locale/Format.php on line 823
+[25-Aug-2017 23:03:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 0
+[26-Aug-2017 23:03:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 199
+[27-Aug-2017 23:03:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 247
+[28-Aug-2017 23:03:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 475
+[29-Aug-2017 23:03:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 931
+[30-Aug-2017 23:03:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 743
+[31-Aug-2017 23:03:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 374
+[01-Sep-2017 23:03:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 254
+[02-Sep-2017 23:03:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 630
+[03-Sep-2017 23:03:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[03-Sep-2017 23:03:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php(480): Zend_Db_Statement->execute(Array)
+#4 /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `core_se...', Array)
+#5 /home/sevilcore/pu in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 235
+[05-Sep-2017 02:03:17 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Locale.php on line 587
+[05-Sep-2017 23:03:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 367
+[06-Sep-2017 23:03:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Image.php on line 247
+[07-Sep-2017 23:03:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 247
+[08-Sep-2017 23:03:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Statement/Pdo.php on line 433
+[09-Sep-2017 23:04:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 106
+[10-Sep-2017 23:04:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 740
+[11-Sep-2017 23:04:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Abstract.php on line 254
+[12-Sep-2017 23:04:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 636
+[13-Sep-2017 23:04:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 657
+[14-Sep-2017 23:04:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Date/DateObject.php on line 1031
+[15-Sep-2017 23:04:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1171
+[16-Sep-2017 23:04:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 366
+[17-Sep-2017 23:05:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Product/Attribute/Backend/Media.php on line 58
+[19-Sep-2017 23:03:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 292
+[20-Sep-2017 23:03:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1041
+[21-Sep-2017 23:03:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Date.php on line 457
+[22-Sep-2017 23:03:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 1184
+[23-Sep-2017 23:03:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 522
+[24-Sep-2017 23:03:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Resource/Abstract.php on line 90
+[25-Sep-2017 23:03:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 176
+[26-Sep-2017 23:03:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 117
+[27-Sep-2017 23:03:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Object.php on line 366
+[28-Sep-2017 23:03:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 792
+[29-Sep-2017 23:03:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Select.php on line 262
+[30-Sep-2017 23:03:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[01-Oct-2017 23:03:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Zend/Db/Statement.php on line 194
+[02-Oct-2017 23:03:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 0
+[03-Oct-2017 23:03:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1043
+[04-Oct-2017 23:03:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Zend/Db/Adapter/Abstract.php on line 878
+[05-Oct-2017 23:03:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php on line 110
+[06-Oct-2017 23:03:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Core/Model/Resource.php on line 274
+[07-Oct-2017 23:03:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 519
+[08-Oct-2017 23:03:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sevilcore/public_html/xml_export/export_google.php on line 131

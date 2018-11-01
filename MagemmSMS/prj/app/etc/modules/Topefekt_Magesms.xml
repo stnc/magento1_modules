@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Topefekt_Magesms>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Checkout/>
+            </depends>
+        </Topefekt_Magesms>
+    </modules>
+</config>

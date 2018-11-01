@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <stnc_sizeguideajax>
+            <version>1.0</version>
+        </stnc_sizeguideajax>
+    </modules>
+    <global>
+        <helpers>
+            <stnc_sizeguideajax>
+                <class>Stnc_SizeGuideAjax_Helper</class>
+            </stnc_sizeguideajax>
+        </helpers>
+        <blocks>
+            <stnc_sizeguideajax>
+                <class>Stnc_SizeGuideAjax_Block</class>
+            </stnc_sizeguideajax>
+        </blocks>
+        <models>
+            <stnc_sizeguideajax>
+                <class>Stnc_SizeGuideAjax_Model</class>
+            </stnc_sizeguideajax>
+        </models>
+
+
+    </global>
+    <frontend>
+
+        <routers>
+            <stnc_sizeguideajax>
+                <use>standard</use>
+                <args>
+                    <module>Stnc_SizeGuideAjax</module>
+                    <frontName>mageticaret</frontName>
+                </args>
+            </stnc_sizeguideajax>
+        </routers>
+
+
+
+
+        <layout>
+            <updates>
+                <stnc_sizeguideajax>
+                    <file>stnc_sizeguideajax.xml</file>
+                </stnc_sizeguideajax>
+            </updates>
+        </layout>
+
+    </frontend>
+
+    <modules>
+        <translations>
+            <version>1.3.0</version>
+        </translations>
+    </modules>
+
+    <frontend>
+        <translate>
+            <modules>
+                <translations>
+                    <files>
+                        <default>Stnc_SizeGuideAjax.csv</default>
+                    </files>
+                </translations>
+            </modules>
+        </translate>
+    </frontend>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <translations>
+                    <files>
+                        <default>Stnc_SizeGuideAjax.csv</default>
+                    </files>
+                </translations>
+            </modules>
+        </translate>
+    </adminhtml>
+
+</config>

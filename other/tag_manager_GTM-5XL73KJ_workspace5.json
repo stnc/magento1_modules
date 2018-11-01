@@ -1,0 +1,1083 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2017-11-27 09:20:10",
+    "containerVersion": {
+        "path": "accounts/2054731279/containers/7962957/versions/0",
+        "accountId": "2054731279",
+        "containerId": "7962957",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/2054731279/containers/7962957",
+            "accountId": "2054731279",
+            "containerId": "7962957",
+            "name": "www.hilan.com.tr",
+            "publicId": "GTM-5XL73KJ",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1511773671208",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/2054731279/containers/7962957/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "13",
+                "name": "AdWords Remarketing",
+                "type": "sp",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "dataLayerVariable",
+                        "value": "{{remarketing}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "927108626"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customParamsFormat",
+                        "value": "DATA_LAYER"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "Adwords Remarketing"
+                    }
+                ],
+                "fingerprint": "1511773452839",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "3",
+                "name": "Checkout Page",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_TRANSACTION"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{AnalyticsIDVariable}}"
+                    }
+                ],
+                "fingerprint": "1511772653937",
+                "firingTriggerId": [
+                    "11"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "5",
+                "name": "Run Alışverişi Bitir",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Product"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{AnalyticsIDVariable}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Ust Sepet -Alışveriş Bitir"
+                    }
+                ],
+                "fingerprint": "1511772653939",
+                "firingTriggerId": [
+                    "9"
+                ],
+                "parentFolderId": "6",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "6",
+                "name": "Run-Urun Sayfası - add to cart-Click",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Product"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{AnalyticsIDVariable}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Add To Cart Click"
+                    }
+                ],
+                "fingerprint": "1511772653940",
+                "firingTriggerId": [
+                    "22"
+                ],
+                "parentFolderId": "6",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "7",
+                "name": "Run-Ust Sepet Sil Click",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Product"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{AnalyticsIDVariable}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Ust Sepet - Ust Sepetden Sil"
+                    }
+                ],
+                "fingerprint": "1511772653940",
+                "firingTriggerId": [
+                    "20"
+                ],
+                "parentFolderId": "6",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "8",
+                "name": "Sepet sayfası ürün Sil",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Product"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{AnalyticsIDVariable}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Sepet Sayfası -Ürün Sil"
+                    }
+                ],
+                "fingerprint": "1511772653941",
+                "firingTriggerId": [
+                    "17"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "9",
+                "name": "Sepeti Görüntüle",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Product"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{AnalyticsIDVariable}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Ust Sepet -Sepeti Göster"
+                    }
+                ],
+                "fingerprint": "1511772653942",
+                "firingTriggerId": [
+                    "18"
+                ],
+                "parentFolderId": "6",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "10",
+                "name": "Universal Analytics",
+                "type": "sp",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "dataLayerVariable",
+                        "value": "{{AnalyticsIDVariable}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "927108626"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customParamsFormat",
+                        "value": "DATA_LAYER"
+                    }
+                ],
+                "fingerprint": "1511773057843",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "6",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "11",
+                "name": "Ust menu blog sayfası click",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_TRANSACTION"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{AnalyticsIDVariable}}"
+                    }
+                ],
+                "fingerprint": "1511772653944",
+                "firingTriggerId": [
+                    "10"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "tagId": "12",
+                "name": "facebook kod",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<!-- Facebook Pixel Code -->\n\n<script>\n\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;\n\nn.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;\n\nt.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,\n\ndocument,'script','https://connect.facebook.net/en_US/fbevents.js');\n\n\nfbq('init', '178428975854931');\n\nfbq('track', 'PageView');\n\n</script>\n\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n\nsrc=\"https://www.facebook.com/tr?id=178428975854931&ev=PageView&noscript=1\"\n\n/></noscript>\n\n<!-- DO NOT MODIFY -->\n\n<!-- End Facebook Pixel Code -->"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1511772703451",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "8",
+                "name": "Add to Cart _modul",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "addToCart"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "addToCart"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653929"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "9",
+                "name": "Alışverişi Bitir",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Element Text}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Alışverişi Bitir"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653930"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "10",
+                "name": "Blog Sayfası üst tıklanma",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "https://www.sevil.com.tr/blog"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653930"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "11",
+                "name": "Checkout Page",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/checkout/onepage/"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653930"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "12",
+                "name": "DOM Ready",
+                "type": "DOM_READY",
+                "fingerprint": "1511772653931"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "13",
+                "name": "Dom Ready",
+                "type": "DOM_READY",
+                "fingerprint": "1511772653931"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "14",
+                "name": "Product Click _modul",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "productClick"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "productClick"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653931"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "15",
+                "name": "Remove From Cart _modul",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "removeFromCart"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "removeFromCart"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653931"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "16",
+                "name": "Satış",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "https://www.hilan.com.tr/checkout/onepage/success/"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772998063"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "17",
+                "name": "Sepet Sayfası Ürün Sil",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Element Text}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Ürün Sil"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653932"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "18",
+                "name": "Sepeti Görüntüle",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Element Text}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Tümünü Göster"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653932"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "19",
+                "name": "Transaction",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/checkout/onepage/successİPTAL/"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653933"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "20",
+                "name": "Ust Sepetden Sil",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Element Text}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Bu ürünü sil"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653933",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "21",
+                "name": "add To Cart -KategoriSayfasi",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "CSS_SELECTOR",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{AnalyticsIDVariable}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".products-grid .btn-cart"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653933"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "22",
+                "name": "add to cart Click Trig",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "product-addtocart-button"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653934"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "23",
+                "name": "commodity",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "commodity"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/commodity"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653934"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "triggerId": "24",
+                "name": "derivative",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "derivative"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/derivative/"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1511772653935"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "variableId": "2",
+                "name": "AnalyticsIDVariable",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-109787977-1"
+                    }
+                ],
+                "fingerprint": "1511772804609"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "variableId": "4",
+                "name": "Click Class",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "CLASSES"
+                    }
+                ],
+                "fingerprint": "1511772653935"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "variableId": "3",
+                "name": "Click ID",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "ID"
+                    }
+                ],
+                "fingerprint": "1511772653934"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "variableId": "1",
+                "name": "Element Text",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "TEXT"
+                    }
+                ],
+                "fingerprint": "1511772653930"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "variableId": "5",
+                "name": "Element Url",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "URL"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "URL"
+                    }
+                ],
+                "fingerprint": "1511772653935"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "variableId": "6",
+                "name": "remarketing",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "Remarketing"
+                    }
+                ],
+                "fingerprint": "1511773320158"
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "folderId": "6",
+                "name": "Calisanlar",
+                "fingerprint": "1511772653928"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "2054731279",
+                "containerId": "7962957",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/2054731279/containers/7962957/versions/0?apiLink=version"
+    }
+}

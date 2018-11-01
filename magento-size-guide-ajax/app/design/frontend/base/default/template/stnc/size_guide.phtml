@@ -1,0 +1,18 @@
+﻿<?php
+$control= Mage::getStoreConfig('stnc/stnc_group/stnc_webkulMarketKargoAlanıKaldirma',Mage::app()->getStore());
+if ($control){
+?>
+<div id="BedenTablosuModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><?php echo Mage::getStoreConfig('stnc/stnc_group/stnc_input_BlockName',Mage::app()->getStore());?></h4>
+            </div>
+            <div id="sizeGuideContent" class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+<?php }  ?>
